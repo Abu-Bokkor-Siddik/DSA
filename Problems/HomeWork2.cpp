@@ -43,7 +43,7 @@ int main()
         cin >> nums[i];
     }
 
-    cout << "Enter target sum (k): ";
+        cout << "Enter target sum (k): ";
     cin >> k;
 
     int result = solution.subarraySum(nums, k);
